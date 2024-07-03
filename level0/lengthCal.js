@@ -15,7 +15,7 @@ const lengthCal = (num_list) => {
 
 export { lengthCal };
 
-// :: 길이에따른연산
+// :: 길이에따른연산 (추가)
 // https://school.programmers.co.kr/learn/courses/30/lessons/181879?language=javascript
 
 // :: 문제해석

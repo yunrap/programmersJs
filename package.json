@@ -1,0 +1,16 @@
+{
+  "name": "programmersJs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "test": "jest",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  }
+}

@@ -11,6 +11,6 @@ describe("I로 만들기", () => {
   });
 
   test("테스트1--", () => {
-    expect(convertUpper([1, 2, 3], [true, true, true])).toBe(102);
+    expect(competition([1, 2, 3], [true, true, true])).toBe(102);
   });
 });

@@ -1,0 +1,30 @@
+
+/*
+작성일자 2024.08.07 18:18분
+ 1. 문제이름 :: 없는숫자 더하기
+ 2. 링크 :: https://school.programmers.co.kr/learn/courses/30/lessons/86051
+
+ 3. 문제해석 ::
+    0~9 까지 없는숫자를 누적합으로 계산해서 return 해라
+    
+    
+ 4. 접근방법 ::
+    0~9까지 반복문을 돌린다.
+    받은배열중에 만약 해당인덱스가 없을경우 누적합으로 더해준다.
+    
+    
+5. 공유되면좋을것
+    없습네다. sort로해서 정렬후 includes를 하면 더빠른지? 나중에 정리체크
+    
+*/
+
+
+function addNoNumber(numbers) {
+    let result = 0;
+    for (let i = 0; i <= 9; i++) {
+        if (!numbers.includes(i)) {
+            result += i;
+        }
+    }
+    return result;
+}
